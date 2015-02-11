@@ -6,6 +6,7 @@ Same options as jQuery.ajax().
 
 ```html
 
+<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
 <script src="ajaxq.js"></script>
 <script>
     // Req 1 should run immediately
