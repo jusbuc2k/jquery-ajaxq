@@ -1,9 +1,17 @@
-﻿/// <reference path="http://code.jquery.com/jquery-1.11.0.js" />
+﻿/*
+ * jQuery simple ajax queue
+ * 
+ * Copyright (c) 2015 Justin Buchanan
+ * Licensed under The MIT License
+ * 
+ */
+
+/// <reference path="http://code.jquery.com/jquery-1.11.0.js" />
 
 ; (function ($) {
 
     var _lastRequest = new $.Deferred().resolve();
-
+   
     $.ajaxq = function (url, options) {
         var thisRequest = new $.Deferred();
         var thisPromise = thisRequest.promise();
