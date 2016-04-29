@@ -1,7 +1,7 @@
 {
   "name": "jquery-ajaxq",
   "description": "Simple queue for jQuery.ajax()",
-  "main": "src/ajaxq.js",
+  "main": "src/jquery-ajaxq.js",
   "authors": [
     "Justin R. Buchanan"
   ],
