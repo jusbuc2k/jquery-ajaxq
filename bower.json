@@ -1,0 +1,19 @@
+{
+  "name": "jquery-ajaxq",
+  "description": "Simple queue for jQuery.ajax()",
+  "main": "src/ajaxq.js",
+  "authors": [
+    "Justin R. Buchanan"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jusbuc2k/jquery-ajaxq",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "lib",
+    "examples"
+  ]
+}

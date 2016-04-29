@@ -1,12 +1,10 @@
 ﻿/*
  * jQuery simple ajax queue
  * 
- * Copyright (c) 2015 Justin Buchanan
+ * Copyright (c) 2016 Justin Buchanan
  * Licensed under The MIT License
  * 
  */
-
-/// <reference path="http://code.jquery.com/jquery-1.11.0.js" />
 
 ; (function ($) {
 
@@ -32,7 +30,7 @@
             }
 
             thisRequest._pendingRequest = $.ajax.call($, url, options);
-            thisRequest._pendingRequest.then(function (response) {
+            thisRequest._pendingRequest.then(function () {
                 thisRequest.resolveWith(null, arguments);
             }, function(){
                 thisRequest.rejectWith(null, arguments);
